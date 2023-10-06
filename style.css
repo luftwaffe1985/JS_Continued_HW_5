@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+.allCardsNImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.card {
+    margin-right: 10px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid rgb(33, 31, 31);
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: nowrap;
+    box-shadow: 15px 25px 20px rgba(1, 1, 1, 1.14);
+    background-color: antiquewhite;
+}
+
+.titleDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: aquamarine;
+}
+
+html {
+    background-image: url(https://avatars.mds.yandex.net/i?id=93431f8eb9904bd5fc25621367fb741c5283a7cb-3833297-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+}
